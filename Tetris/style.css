@@ -1,0 +1,59 @@
+
+  body{
+      background-color: rgb(18, 20, 27);
+
+  }
+  .sign-wrap-4 {
+    text-align: center;
+    padding: 60px 20px;
+}
+.sign-wrap-4 .sign_word {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 50px;
+    color: rgb(98, 0, 57);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #e62200, 0 0 0.5em #cf00cf, 0 0 0.1em #d60404;
+}
+.sign-wrap-4 .sign_word span {
+    animation: neon-4 linear infinite 2s;
+}
+@keyframes neon-4 {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: #590b60;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #600b5c;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #4f0b60;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+    
+#root canvas {
+    display: block;
+    margin: auto;
+    border: 0px 
+}
